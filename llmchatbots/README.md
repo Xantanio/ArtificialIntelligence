@@ -26,13 +26,17 @@ This chatbot project is part of my learning journey through:
 ## 🚀 Running the Project
 
 ### 1. Clone the repository
+```bash
 git clone https://github.com/xantanio/ArtificialIntelligence.git
 cd ArtificialIntelligence/llmchatbots
-
+```
 ### 2. Set up a virtural environment
+```bash
 python -m venv .venv
 source .venv/bin/activate        # On Linux/macOS
 .venv\Scripts\activate.bat       # On Windows
-
+```
 ### 3. Install dependencies from pyproject.toml
-pip install .
+```bash
+pip install.
+```
