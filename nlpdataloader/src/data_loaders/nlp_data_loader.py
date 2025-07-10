@@ -51,6 +51,7 @@ def collate_fn_bfFALSE(batch):
     # Return padded batch.
     return padded_batch
 
+# Collate function with batch_first=True.
 def collate_fn(batch):
     # Tokenize each sample in the batch using the specified tokenizer.
     tensor_batch = []
