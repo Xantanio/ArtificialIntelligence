@@ -38,5 +38,5 @@ source .venv/bin/activate        # On Linux/macOS
 ```
 ### 3. Install dependencies from pyproject.toml
 ```bash
-pip install.
+pip install .
 ```
